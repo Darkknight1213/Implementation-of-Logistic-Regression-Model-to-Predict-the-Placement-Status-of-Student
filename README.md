@@ -32,8 +32,7 @@ data1=data.copy()
 data1=data1.drop(["sl_no", "salary"], axis=1) 
 data1.head()
 ```
-out
-
+![image](https://github.com/user-attachments/assets/f9b92cf9-0ab1-4980-a436-1a385431eb04)
 
 ```python
 data1.duplicated().sum()
